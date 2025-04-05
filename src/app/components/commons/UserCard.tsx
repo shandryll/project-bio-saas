@@ -15,12 +15,12 @@ export function UserCard() {
 
       <div className="flex flex-col gap-2 w-full items-center">
         <div className="flex items-center gap-2">
-          <h3 className="text-3xl font-bold min-w-0 overflow-hidden">Shandryll</h3>
+          <h3 className="text-2xl font-bold min-w-0 overflow-hidden">Shandryll Stéphano</h3>
         </div>
-        <p className="opacity-40">
-          Soluções inteligentes, <br />
-          criadas para você.
-        </p>
+        <div className="flex flex-col items-center">
+          <p className="opacity-40">Soluções inteligentes</p>
+          <p className="opacity-40">criadas para você.</p>
+        </div>
       </div>
 
       <div className="flex flex-col gap-2 w-full items-center">
